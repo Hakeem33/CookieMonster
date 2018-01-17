@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cookiemonster.MainActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="match_parent">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:id="@+id/image_view_cookie"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:scaleType="centerCrop"
+         android:src="@drawable/cookiemonstahfive"
+         />
+     <TextView
+         android:id="@+id/text_view_id"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textSize="35sp"
+         android:textColor="#000000"
+         android:text="I'm hungry" />
+     <Button
+         android:id="@+id/button_id"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Munch!" />
+     <Button
+         android:id="@+id/reset_id_id"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Reset!" />
+
+
+ </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
